@@ -1,1 +1,1 @@
-add_library(mylibrary MyLibrary.c MyLibrary.h)
+add_library(mylibrary MyLibrary.cpp MyLibrary.h)
