@@ -6,7 +6,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(runtests test.cpp)
-target_link_libraries(runtests PUBLIC mainLib gtest gtest_main)
+target_link_libraries(runtests PUBLIC lib gtest gtest_main)
 target_include_directories(runtests PUBLIC "${PROJECT_BINARY_DIR}" "test")
 
 include(GoogleTest)

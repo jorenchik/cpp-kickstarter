@@ -1,4 +1,4 @@
-#include "main_lib.h"
+#include "lib.h"
 #include <stdbool.h>
 #include <stdlib.h>
 
