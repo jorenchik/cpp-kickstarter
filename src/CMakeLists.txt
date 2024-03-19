@@ -1,4 +1,4 @@
-add_subdirectory(Cppunit)
+add_subdirectory(cppunit)
 add_subdirectory(MyLibrary)
 
 add_executable(main main.cpp)
