@@ -1,5 +1,5 @@
 #include "main_lib.h"
-#include "MyLibrary.h"
+#include "MyLibrary/MyLibrary.h"
 #include <stdbool.h>
 #include <stdio.h>
 
